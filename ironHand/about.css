@@ -1,0 +1,254 @@
+/* About Story Section */
+.about-story {
+  padding: 5rem 1.5rem;
+  background-color: #ffffff;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-content h2 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  color: #111827;
+}
+
+.about-content p {
+  font-size: 1.3rem;
+  line-height: 1.8;
+  color: #4b5563;
+  margin-bottom: 1.5rem;
+}
+
+/* Our Values Section */
+.about-values {
+  padding: 5rem 1.5rem;
+  background-color: #f9fafb;
+}
+
+.about-values h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin-bottom: 3.5rem;
+  color: #111827;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2.5rem;
+}
+
+.value-card {
+  text-align: center;
+  padding: 2.5rem 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.value-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 35x rgba(0, 0, 0, 0.1);
+}
+
+.value-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.value-card h3 {
+  font-size: 1.3rem;
+  font-weight: 800;
+  margin-bottom: 0.75rem;
+  color: #111827;
+}
+
+.value-card p {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #4b5563;
+}
+
+/* Why Choose Section */
+.about-why {
+  padding: 5rem 1.5rem;
+  background-color: #ffffff;
+}
+
+.about-why h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin-bottom: 2.5rem;
+  color: #111827;
+}
+
+.why-list {
+  list-style: none;
+  padding: 0;
+  max-width: 700px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px 1fr));
+  gap: 1rem;
+}
+
+.why-list li {
+  font-size: 1.15rem;
+  color: #374151;
+  background-color: #f9fafb;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #f97316;
+  font-weight: 600;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .values-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .why-list {
+    grid-template-columns: 1fr;
+  }
+
+  .areas-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cert-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.page-hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  padding-top: 5rem;
+}
+
+.page-hero p {
+  font-size: 1.3rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+/* Service Area Section */
+.service-area {
+  padding: 5rem 1.5rem;
+  background-color: #f9fafb;
+}
+
+.service-area h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  color: #111827;
+}
+
+.area-intro {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #4b5563;
+  margin-bottom: 3rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.areas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.area-item {
+  background-color: #ffffff;
+  padding: 1.25rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #374151;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.arae-note {
+  text-align: center;
+  font-size: 1rem;
+  color: #6b7280;
+  margin-top: 2rem;
+}
+
+.area-note a {
+  color: #f97316;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.area-note a:hover {
+  text-decoration: underline;
+}
+
+/* Certifications Section */
+.certifications {
+  padding: 5rem 1.5rem;
+  background-color: #ffffff;
+}
+
+.certifications h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin-bottom: 3.5rem;
+  color: #111827;
+}
+
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+}
+
+.cert-card {
+  text-align: center;
+  padding: 2.5rem 2rem;
+  background-color: #f9fafb;
+  border-radius: 12px;
+  border: 2px solid #e5e7eb;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.cert-card:hover {
+  transform: translateY(-4px);
+  border-color: #f97316;
+}
+
+.cert-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.cert-card h3 {
+  font-size: 1.3rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  color: #111827;
+}
+
+.cert-card p {
+  font-size: 1rem;
+  color: #6b7280;
+}
