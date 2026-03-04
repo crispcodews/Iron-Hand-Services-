@@ -1,0 +1,134 @@
+/* Contact Page */
+.contact-page {
+  padding: 5rem 1.5rem;
+  background-color: #ffffff;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: start;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.contact-info h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 800;
+  color: #111827;
+}
+
+.contact-info p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  color: #4b5563;
+}
+
+.contact-details {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 2.5rem;
+}
+
+.contact-details li {
+  margin-bottom: 1rem;
+  font-size: 1.15rem;
+  color: #374151;
+}
+
+.contact-hours {
+  background-color: #f9fafb;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #f97316;
+}
+
+.contact-hours h3 {
+  font-size: 1.3rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  color: #111827;
+}
+
+.contact-hours p {
+  font-size: 1rem;
+  color: #4b5563;
+  margin-bottom: 0.5rem;
+}
+
+/* Form Section */
+.contact-page .contact-form {
+  background-color: #f9fafb;
+  padding: 2.5rem;
+  border-radius: 14px;
+  color: #111827;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 0.85rem 1rem;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #f97316;
+  box-shadow: 0 0 0 3px rgba(249, 115, 22, 0.1);
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .contact-page .contact-form {
+    padding: 2rem 1.5rem;
+  }
+
+  .contact-info h2,
+  p,
+  ul {
+    text-align: center;
+  }
+}
+
+.page-hero-content {
+  text-align: center;
+}
+
+.page-hero h1 {
+  margin-bottom: 1rem;
+  padding-top: 5rem;
+}
+
+.page-hero p {
+  font-size: 1.3rem;
+}
